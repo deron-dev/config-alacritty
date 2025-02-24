@@ -1,0 +1,46 @@
+# https://alacritty.org/config-alacritty.html
+
+[general]
+import = [
+  "%APPDATA%/alacritty/themes/breeze.toml"
+]
+working_directory = "C:\\Users\\drparker"
+
+[selection]
+save_to_clipboard = true
+
+[terminal]
+shell = "pwsh"
+
+# ---
+
+[font]
+size = 12
+
+[font.bold]
+family = "FiraCode Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "FiraCode Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family = "FiraCode Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "FiraCode Nerd Font"
+
+# ---
+
+[window]
+dynamic_title = true
+opacity = 1
+startup_mode = "Windowed"
+title = "terminal"
+
+[window.padding]
+x = 5
+y = 5
+
